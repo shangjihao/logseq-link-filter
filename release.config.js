@@ -1,7 +1,7 @@
 const pkg = require('./package.json');
 
 module.exports = {
-  branches: ["master"],
+  branches: ["main"],
   plugins: [
     [
       "@semantic-release/commit-analyzer",

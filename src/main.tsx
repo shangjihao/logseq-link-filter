@@ -182,7 +182,6 @@ function injectFilterBar(): void {
     //       > .flex.flex-row.items-center
     //         > h2 "N Linked References"
     //     > .hidden (the collapsed content)
-    //
     // We must insert OUTSIDE .foldable-title to avoid its click handler.
     const foldableTitle = refSection.querySelector(".foldable-title");
 
